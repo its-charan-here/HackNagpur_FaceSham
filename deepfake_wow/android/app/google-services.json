@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "383982734544",
+    "project_id": "deepfake-3e211",
+    "storage_bucket": "deepfake-3e211.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:383982734544:android:dc1f95250b2acfa76ae2d5",
+        "android_client_info": {
+          "package_name": "com.example.deepfake_wow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "383982734544-v97l47e5q5kjag78i9s60b162sr2ko1a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGa1ZjYiXwqC5_1b3cXbLq4BOcA8SYY88"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "383982734544-v97l47e5q5kjag78i9s60b162sr2ko1a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
