@@ -12,7 +12,7 @@ Project Name : FaceSham
 * Poojan Panchal
 * Sanskar Garodia
 
-### Presentation : <a href="https://docs.google.com/presentation/d/1m-g4-3DC17DS_21vDin44ZK804rtQHMOzIXxFYcv7xM/edit?usp=sharing">Google Slides</a> | <a href = "https://youtu.be/CcOPC9K9ugk">YouTube</a>
+### Presentation : <a href="https://docs.google.com/presentation/d/1ncSGvFpZyul25qazbEMvW9SkmxTayI3FjUxdCjwz5Uc/edit?usp=sharing">Google Slides</a> | <a href = "https://youtu.be/CcOPC9K9ugk">YouTube</a>
 
 ### Problem Statement 
 
