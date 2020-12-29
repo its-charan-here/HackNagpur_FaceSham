@@ -1,5 +1,5 @@
-<a href="https://dscwow.tech/"><img src="https://github.com/its-charan-here/DscWOW_FaceSham/blob/main/documentation/images/dscwow_header.png"></a>
-<a href="https://github.com/its-charan-here/DscWOW_FaceSham"><img src="https://github.com/its-charan-here/DscWOW_FaceSham/blob/main/documentation/images/facesham.png" ></a>
+<a href="https://hacknagpur.tech/"><img src="https://github.com/its-charan-here/HackNagpur_FaceSham/blob/main/documentation/images/hacknagpur_header.png"></a>
+<a href="https://github.com/its-charan-here/HackNagpur_FaceSham"><img src="https://github.com/its-charan-here/HackNagpur_FaceSham/blob/main/documentation/images/facesham.png" ></a>
 
 # DscWOW_FaceSham
 
@@ -36,24 +36,24 @@ DeepFake detection is imperative because :
 - The value of original content deteriorates.
 - Difficult for a layperson to identify a DeepFake content and assess its authenticity.
 
-<a href=""><img src="https://github.com/its-charan-here/DscWOW_FaceSham/blob/main/documentation/images/deepfakeinfo.png" height=200px></a>
+<a href=""><img src="https://github.com/its-charan-here/HackNagpur_FaceSham/blob/main/documentation/images/deepfakeinfo.png" height=200px></a>
 
 ## Deep Fake Detector
 
 Deep fake detector is build using BlazeFace Detection model and Xception image classification model. Once the input video is feed into the program, it is divided into frames and the BlazeFace detection model is applied on the frames to extract all the faces from the images. These faces are then encoded into a numpy array which will act as input data for Xception Classification model. This Xception classification model is a based on CNN architechure which is trained on the DeepFake dataset released by the Facebook in 2019 on Kaggle. You can find the dataset over [here](https://www.kaggle.com/c/deepfake-detection-challenge/data). Here, there is about 400GB of training data which contains short videos or both the classes (Natural and DeepFake). In order to train on huge dataset like this, lots of computational power is required as well as training this model take many days. Therefore, the open source trained weight are used, which are avaible [here](https://github.com/its-charan-here/DscWOW_FaceSham/tree/main/vision/weights/xception_trained_model). The following flow chart diagram explains the Deep Learning Pipeline. 
 
-<a href=""><img src="https://github.com/its-charan-here/DscWOW_FaceSham/blob/main/documentation/Deep%20Learning%20Pipeline.png" ></a>
+<a href=""><img src="https://github.com/its-charan-here/HackNagpur_FaceSham/blob/main/documentation/Deep%20Learning%20Pipeline.png" ></a>
 
 ## FaceSham App Flow
 
 FaceSham app provide the interface for the users to filter their media. Initial step will be user uploading the video throught the app. The video is stored in firebase database, also onces the video is uploaded a flask api request is made which then indiates the cloud processing unit/local computer for starting the deeplearning pipeline on the input video. The result of the deep learning model is then sent back to the FaceSham app. The following flowchart diagram explains the same. 
 
-<a href=""><img src="https://github.com/its-charan-here/DscWOW_FaceSham/blob/main/documentation/Flow%20Chart.png" ></a>
+<a href=""><img src="https://github.com/its-charan-here/HackNagpur_FaceSham/blob/main/documentation/Flow%20Chart.png" ></a>
 
 ## FaceSham UI
 
 Following is the User Interface of the FaceSham App.
-<a href=""><img src="https://github.com/its-charan-here/DscWOW_FaceSham/blob/main/documentation/Introducing%20you%20FaceSham.png" ></a>
+<a href=""><img src="https://github.com/its-charan-here/HackNagpur_FaceSham/blob/main/documentation/Introducing%20you%20FaceSham.png" ></a>
 
 ### Implementation 
 
