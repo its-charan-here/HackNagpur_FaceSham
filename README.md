@@ -1,9 +1,7 @@
 <a href="https://hacknagpur.tech/"><img src="https://github.com/its-charan-here/HackNagpur_FaceSham/blob/main/documentation/images/hacknagpur_header.png"></a>
 <a href="https://github.com/its-charan-here/HackNagpur_FaceSham"><img src="https://github.com/its-charan-here/HackNagpur_FaceSham/blob/main/documentation/images/facesham.png" ></a>
 
-# DscWOW_FaceSham
-
-Team : X-Radiant
+# HackNagpur_FaceSham
 
 Project Name : FaceSham
 
