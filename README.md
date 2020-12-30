@@ -1,9 +1,8 @@
 <a href="https://hacknagpur.tech/"><img src="https://github.com/its-charan-here/HackNagpur_FaceSham/blob/main/documentation/images/hacknagpur_header.png"></a>
 <a href="https://github.com/its-charan-here/HackNagpur_FaceSham"><img src="https://github.com/its-charan-here/HackNagpur_FaceSham/blob/main/documentation/images/facesham.png" ></a>
 
-# HackNagpur_FaceSham
 
-Project Name : FaceSham
+## Project Name : FaceSham
 
 ### Team members
 * Vignesh Charan
@@ -67,7 +66,7 @@ pip install -r requirements.txt
 ```
 python app.py
 ```
-- Once the local host server is live, open the deepfake_wow folder and launch the flutter app. 
+- Once the local host server is live, open the deepfake_wow folder and launch the flutter app via `lib/main.dart` file. 
 
 Note: Ensure to get all the packages in pubspec.yaml file. 
 
